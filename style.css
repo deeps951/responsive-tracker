@@ -7,7 +7,7 @@ body {
   padding: 1rem;
   max-width: 800px;
   line-height: 1.6;
-  background: #fafafa;
+  background: whitesmoke;
 }
 
 header {
@@ -44,6 +44,7 @@ header {
   border-radius: 8px;
   border: 1px solid #eee;
   transition: background 0.2s ease, border-color 0.2s ease;
+  filter: drop-shadow(1px 5px 7px black);
 }
 
 .day-card.completed {
@@ -60,7 +61,7 @@ header {
    Notes Field
 -------------------------- */
 .day-card textarea {
-  width: 100%;
+  width: 98%;
   min-height: 70px;
   margin-top: 1rem;
   padding: 0.7rem;
