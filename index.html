@@ -4,11 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>100-Day Responsive Design Journey</title>
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header>
+    <div id="auth">
+  <input id="email" type="email" placeholder="Enter your email" />
+  <button id="login-btn">Send login link</button>
+</div>
     <h1>100-Day Responsive Design Journey</h1>
     <div id="progress-bar">
       <div id="progress-fill"></div>
@@ -19,6 +24,6 @@
     <!-- JS will inject your 100 days here -->
   </main>
 
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>

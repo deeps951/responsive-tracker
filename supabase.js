@@ -1,0 +1,6 @@
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+
+export const supabase = createClient(
+  "https://YOUR_PROJECT_ID.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhyYWJjeWNvaXZ4d3NhYW1veWpiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU1NzIwMjEsImV4cCI6MjA4MTE0ODAyMX0.C8bbqo04egupzRUe1J-lQVjlODniP5taWa-FbwH_7kM"
+);
